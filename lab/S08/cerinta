@@ -1,0 +1,3 @@
+Aplicatie server TCP cu select: Implementati un server TCP care sa faca broadcast catre toti clientii mesajului primit de la fiecare client.
+
+Aplicatie server UDP: Implementati un server UDP care sa poata trata mai multi clienti in paralel (folosind fork()). Clientul ar trebui sa trimita 2 numere si o operatie, iar serverul va raspunde cu rezultatul aferent. Clientul nu se va termina dupa trimiterea primei operatii ci va permite introducerea de noi operatii.

@@ -1,0 +1,39 @@
+Indicatii pentru rezolvarea Temei 2
+
+Tema va contine doua livrabile: un raport tehnic si o implementare.
+
+
+  Raportul tehnic
+
+Raportul tehnic trebuie elaborat conform formatului LNCS, disponibil pe pagina web Springer LNCS Guidelines (https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines). Raportul va urma o structură divizată în secțiuni, astfel:
+
+1. Introducere: Prezentați viziunea generală și obiectivele proiectului.
+2. Tehnologii Aplicate: Detaliați tehnologiile specifice folosite (de exemplu TCP, UDP etc.), cu accent pe aspectele relevante pentru proiect. Explicați motivațiile din spatele selecției acestor tehnologii.
+3. Structura Aplicației: Expuneți conceptele folosite in modelare si prezentați inclusiv o diagramă detaliată a aplicației.
+4. Aspecte de Implementare: Prezentați secțiuni de cod specifice și inovative ale proiectului, furnizând documentație adecvată; prezentati protocolul la nivelul aplicatie pe care il veti implementa; descrieți scenarii reale de utilizare.
+5. Concluzii: Analizați potențialele îmbunătățiri ale soluției propuse.
+6. Referințe Bibliografice
+
+Observații:
+- secțiunile 1 si 2 vor avea dimensiunea de maxim o pagina (cumulat);
+- pentru realizarea diagramei detaliate a aplicației, puteti apela si la instrumente de tipul: https://sequencediagram.org
+
+
+  Implementarea
+
+Implementarea va consta in realizarea unei aplicatii server si a unei aplicatii client.
+
+Serverul va avea urmatoarele caracteristici/functionalitati (conform detaliilor stipulate in raportul tehnic):
+- implementarea concurentei;
+- implementarea protocolului de comunicare; se va implementa cel putin partea de recunoastere a comenzilor (si a parametrilor, daca este cazul), fara functionalitatile propriu-zise; serverul va returna clientului un mesaj de confirmare a identificarii fiecarei comenzi specifice.
+
+Clientul va avea urmatoarele caracteristici/functionalitati (conform detaliilor stipulate in raportul tehnic):
+- implementarea protocolului de comunicare;
+- comunicarea cu serverul (transmiterea comenzilor catre acesta si receptionarea mesajelor aferente);
+- in cazul proiectelor ce constau doar dintr-un client cu interfata grafica (explicit in enunt), trebuie sa se dezvolte un prototip ce include si o parte din interfata grafica, care sa demonstreze comnunicarea cu serverul in cazul tuturor functionalitatilor ce urmeaza a fi implementate.
+
+Observatie:
+- codul trebuie sa fie compilabil si rulabil.
+
+
+Termenul limită pentru predare este laboratorul din săptămâna a 11-a. Se așteaptă o abordare creativă și personală în dezvoltarea temei, pentru a asigura unicitatea și originalitatea temei dumneavoastră.
