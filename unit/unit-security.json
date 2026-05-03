@@ -3,7 +3,7 @@
   "title": "Unit 10: Network Security",
   "year_id": "year-2",
   "order": 10,
-  "description": "CIA triad, attack types, defense mechanisms (firewalls, IDS/IPS, SSL/TLS, VPN).",
+  "description": "CIA triad, access control models, vulnerability categories, attack types and modes, prevention across OSI layers, NSM, security protocols (IPSec, TLS/SSL, SSH, PGP), and wireless security.",
   "lesson_ids": [
     "lesson-security-fundamentals",
     "lesson-security-mechanisms"
@@ -12,25 +12,40 @@
     "network-security"
   ],
   "key_concepts": [
-    "CIA",
+    "CIA triad",
+    "non-repudiation",
+    "access control (MAC, DAC, RoBAC, RuBAC)",
+    "PKI",
+    "vulnerability",
     "DoS",
     "DDoS",
-    "MITM",
+    "buffer overflow",
+    "social engineering",
+    "IP spoofing",
     "firewall",
-    "IDS",
-    "IPS",
-    "SSL/TLS",
-    "VPN",
-    "PKI"
+    "IPSec",
+    "TLS/SSL",
+    "SSH",
+    "PGP",
+    "NSM",
+    "DMZ",
+    "honeypot",
+    "DREAD",
+    "STRIDE",
+    "SANS incident response",
+    "WPA/WPA2/WPA3"
   ],
   "learning_objectives": [
-    "Explain the CIA security triad",
-    "Identify common attacks and defenses",
-    "Describe SSL/TLS, VPN, and PKI"
+    "Explain the CIA security triad and non-repudiation",
+    "Describe access control models and PKI",
+    "Categorise vulnerabilities and classify attacks by profile and mode",
+    "Explain prevention measures and security policies across OSI layers",
+    "Describe network survivability and the NSM process",
+    "Apply risk-analysis methodologies and SANS incident-response steps",
+    "Describe IPSec, TLS/SSL, SSH, PGP, and wireless security standards"
   ],
   "prerequisites": [
     "unit-architecture",
     "unit-transport-layer"
-  ],
-  "needs_review": true
+  ]
 }

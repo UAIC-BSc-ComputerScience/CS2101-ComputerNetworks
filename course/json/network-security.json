@@ -4,93 +4,231 @@
   "source_file": "course/eng/Curs 14/14rc_SecuritateRC_RO.pdf",
   "course_number": 14,
   "course_group": "curs-14",
-  "language": "ro",
-  "needs_review": true,
-  "note": "PDF is in Romanian; key topics inferred from headings",
+  "language": "en",
   "instructors": [
     "Alboaie Lenuta",
     "Panu Andrei"
   ],
   "main_topics": [
     "security preliminaries",
-    "important security aspects",
+    "protection forms",
+    "difficulties in defending against attacks",
     "vulnerabilities",
     "attacks",
-    "prevention and survival",
+    "prevention",
+    "survival and resilience",
     "monitoring",
-    "testing",
-    "incident response",
+    "testing and incident response",
     "security protocols",
-    "specific problems",
+    "wireless-specific problems",
     "statistics 2017-2018",
     "predictions 2019+"
   ],
   "subtopics": [
     "application quality attributes: correctness, modularity, compatibility, security",
+    "security incident definition and causes",
+    "security as a process (Mitch Kabay)",
+    "cracker vs hacker",
+    "security myths (security through obscurity)",
+    "security process phases: assessment, protection, detection, response",
     "CIA triad: confidentiality, integrity, availability",
-    "network vulnerabilities and attack surfaces",
-    "DoS and DDoS attacks",
-    "man-in-the-middle attacks",
-    "SQL injection, XSS (cross-site scripting)",
-    "firewalls and IDS/IPS",
-    "SSL/TLS protocol",
-    "VPN overview",
-    "PKI and certificates",
-    "security monitoring tools",
-    "penetration testing",
-    "incident response process"
+    "non-repudiation and digital certificates",
+    "access control: identification, authentication, authorisation, access",
+    "access control models: MAC, DAC, RoBAC, RuBAC",
+    "access control implementations: biometrics, ACL, SSO",
+    "confidentiality via VPN and encryption",
+    "privacy and information disclosure",
+    "integrity via digest algorithms and digital signatures",
+    "availability and DoS/DDoS attacks",
+    "PKI and certification authorities",
+    "people-related vulnerabilities: social engineering, misconfiguration, insider threats",
+    "transmission and hardware vulnerabilities: sniffing, port scanning, physical access",
+    "protocol and software vulnerabilities: DNS, legacy services, CGI, default accounts",
+    "Internet access vulnerabilities: IP spoofing, smurf attack",
+    "attacker profiles: opportunistic, intermediate, sophisticated",
+    "attack types: user-level access, remote access, remote application access, malware injection",
+    "attack modes: cracking, email bombing, email spoofing, social engineering/phishing",
+    "DoS/DDoS: SYN flood, ping of death, teardrop, smurf, UDP/ICMP flood",
+    "buffer overflow attacks",
+    "IP sniffing",
+    "malware: viruses, trojans, backdoors, worms, ransomware, spyware",
+    "password guessing and brute-force",
+    "reverse engineering techniques",
+    "wireless attacks: WEP weaknesses, wireless sniffing, jamming, masquerading",
+    "security at all OSI/TCP-IP layers: physical, data link, network, transport, application",
+    "security policy: risk assessment, cost-benefit analysis, standards",
+    "basic security principles: simplify, reduce, harden, diversify, document",
+    "survival properties: resistance, recognition, adaptation",
+    "network security monitoring (NSM): collection, analysis, assessment",
+    "network zoning and DMZ (demilitarised zone)",
+    "honeypots and honeynets",
+    "testing: load, obfuscation, integration, component stress testing",
+    "risk analysis methodologies: DREAD, OCTAVE, STRIDE, OSSTMM",
+    "SANS incident-response steps: preparation, identification, containment, eradication, recovery, follow-up",
+    "forensics tools: WinHex, FIRE, ForensiX",
+    "IPSec: authentication header, ESP, access control, confidentiality (RFC 2401-2408)",
+    "TLS/SSL: handshake protocol, alert protocol, session state, MAC (RFC 8446)",
+    "SSH, PGP, S/MIME",
+    "wireless security: WEP, WPA/WPA2/WPA3, WTLS, IPSec for mobile IP"
   ],
   "definitions": [
     {
+      "term": "Security incident",
+      "definition": "An event occurring in a network with implications for the security of a computer or the network; source may be internal or external"
+    },
+    {
       "term": "Confidentiality",
-      "definition": "Ensuring information is accessible only to authorized entities"
+      "definition": "Preventing an unauthorised third party from accessing data exchanged between two endpoints"
     },
     {
       "term": "Integrity",
-      "definition": "Ensuring information has not been tampered with"
+      "definition": "Detecting any unauthorised modification of transmitted data, ensured by digest algorithms and digital signatures"
     },
     {
       "term": "Availability",
-      "definition": "Ensuring services are accessible when needed"
+      "definition": "Guaranteeing that a resource can be accessed at the appropriate time; threatened by DoS/DDoS attacks"
+    },
+    {
+      "term": "Non-repudiation",
+      "definition": "The sender of a message cannot deny having sent it; enforced by digital certificates issued by a Certification Authority (CA)"
+    },
+    {
+      "term": "Authentication",
+      "definition": "Verifying that someone is who they claim to be (e.g. password check, Kerberos, RADIUS)"
+    },
+    {
+      "term": "Authorisation",
+      "definition": "Determining what an authenticated user is allowed to do (roles, permissions)"
+    },
+    {
+      "term": "MAC (access control)",
+      "definition": "Mandatory Access Control – end-users cannot modify or transfer control over resources"
+    },
+    {
+      "term": "DAC",
+      "definition": "Discretionary Access Control – the resource owner may grant rights to other users"
+    },
+    {
+      "term": "RoBAC",
+      "definition": "Role-Based Access Control – permissions are assigned to a role within an organisation, then the role is assigned to a user"
+    },
+    {
+      "term": "RuBAC",
+      "definition": "Rule-Based Access Control – access is assigned dynamically to a user based on a set of rules"
+    },
+    {
+      "term": "Vulnerability",
+      "definition": "A weakness in hardware or software that allows unauthorised users to gain access; no system is 100% secure"
     },
     {
       "term": "DoS",
-      "definition": "Denial of Service – attack overwhelming a service to make it unavailable"
+      "definition": "Denial of Service – attack that degrades or disables a service by overwhelming the server or network"
     },
     {
       "term": "DDoS",
-      "definition": "Distributed Denial of Service – DoS attack from many distributed sources"
+      "definition": "Distributed DoS – DoS attack launched from many compromised hosts (agents) coordinated by handlers"
+    },
+    {
+      "term": "Buffer overflow",
+      "definition": "Exploitation of programs that allocate insufficient buffer space, allowing execution of arbitrary commands with elevated privileges"
+    },
+    {
+      "term": "IP spoofing",
+      "definition": "Falsifying the source IP address in packets to hide the attacker's identity or bypass filters"
+    },
+    {
+      "term": "Social engineering",
+      "definition": "Manipulating users through phishing, intimidation, impersonation, or flattery to obtain credentials or sensitive information"
+    },
+    {
+      "term": "Phishing",
+      "definition": "A social-engineering technique that impersonates a trusted entity to steal identity or credentials"
     },
     {
       "term": "Firewall",
-      "definition": "System that controls incoming/outgoing network traffic based on rules"
+      "definition": "Network or host-level system that controls traffic based on rules; deployed at the network layer"
     },
     {
-      "term": "SSL/TLS",
-      "definition": "Secure Sockets Layer / Transport Layer Security – cryptographic protocols for secure communication"
+      "term": "IPSec",
+      "definition": "IP Security – suite of protocols (RFC 2401-2408) providing access control, data integrity, authentication, and confidentiality at the network layer"
     },
     {
-      "term": "VPN",
-      "definition": "Virtual Private Network – encrypted tunnel over a public network"
+      "term": "TLS/SSL",
+      "definition": "Transport Layer Security / Secure Sockets Layer – cryptographic protocols securing TCP connections; TLS 1.3 defined in RFC 8446"
+    },
+    {
+      "term": "SSH",
+      "definition": "Secure Shell – protocol that negotiates an encrypted connection between a server and client with various authentication methods"
+    },
+    {
+      "term": "PGP",
+      "definition": "Pretty Good Privacy – provides confidentiality and authentication for email and files using a suite of encryption algorithms (RFC 3156)"
+    },
+    {
+      "term": "PKI",
+      "definition": "Public Key Infrastructure – system of services that issues, manages, and verifies digital certificates through Certification Authorities (CA) and Registration Authorities (RA)"
+    },
+    {
+      "term": "NSM",
+      "definition": "Network Security Monitoring – collection, analysis, and assessment of indicators and alerts for detecting and responding to security incidents"
+    },
+    {
+      "term": "DMZ",
+      "definition": "Demilitarised Zone – network segment that separates sensitive internal data from publicly accessible servers"
+    },
+    {
+      "term": "Honeypot",
+      "definition": "A specially configured decoy machine used to observe attacker behaviour; multiple honeypots form a honeynet"
+    },
+    {
+      "term": "DREAD",
+      "definition": "Risk analysis model: Damage potential, Reproducibility, Exploitability, Affected users, Discoverability"
+    },
+    {
+      "term": "STRIDE",
+      "definition": "Threat model: Spoofing identity, Tampering with data, Repudiation, Information disclosure, Denial of service, Elevation of privilege"
+    },
+    {
+      "term": "Forensics",
+      "definition": "Process of catching attackers after a security incident by analysing hardware (disks, RAM) and system logs"
     }
   ],
   "key_concepts": [
     "CIA triad",
+    "non-repudiation",
+    "access control (MAC, DAC, RoBAC, RuBAC)",
+    "PKI",
+    "vulnerability",
     "DoS",
     "DDoS",
+    "buffer overflow",
+    "social engineering",
+    "IP spoofing",
     "firewall",
-    "SSL/TLS",
-    "VPN",
-    "PKI",
-    "IDS",
-    "IPS",
-    "penetration testing"
+    "IPSec",
+    "TLS/SSL",
+    "SSH",
+    "PGP",
+    "NSM",
+    "DMZ",
+    "honeypot",
+    "DREAD",
+    "STRIDE",
+    "SANS incident response",
+    "forensics",
+    "WPA/WPA2/WPA3"
   ],
   "learning_objectives": [
-    "Understand the CIA security triad",
-    "Identify common network vulnerabilities and attack types",
-    "Describe prevention mechanisms: firewalls, IDS/IPS, VPN, SSL/TLS",
-    "Outline incident response procedures"
+    "Explain the CIA security triad and non-repudiation",
+    "Describe access control models (MAC, DAC, RoBAC, RuBAC) and their implementations",
+    "Identify people, hardware, protocol, and Internet-access vulnerability categories",
+    "Classify attacks by profile (opportunistic/intermediate/sophisticated) and mode (DoS, buffer overflow, sniffing, social engineering, malware, etc.)",
+    "Explain prevention principles across all OSI/TCP-IP layers",
+    "Describe survival properties: resistance, recognition, and adaptation",
+    "Outline the NSM process: detection, identification, validation, and reaction",
+    "Apply risk-analysis methodologies (DREAD, STRIDE, OCTAVE, OSSTMM) and the SANS incident-response framework",
+    "Describe security protocols: IPSec, TLS/SSL, SSH, PGP, S/MIME",
+    "Identify wireless-specific threats and countermeasures (WEP, WPA, WTLS)"
   ],
   "prerequisites": [
     "network-architecture",
