@@ -1,0 +1,35 @@
+{
+  "id": "unit-application-layer",
+  "title": "Unit 6: Application Layer Protocols",
+  "year_id": "year-2",
+  "order": 6,
+  "description": "DNS, email (SMTP/POP), file transfer (FTP/TFTP), and HTTP/WWW.",
+  "lesson_ids": [
+    "lesson-dns",
+    "lesson-email-protocols",
+    "lesson-ftp",
+    "lesson-http"
+  ],
+  "course_ids": [
+    "domain-name-system",
+    "application-layer"
+  ],
+  "key_concepts": [
+    "DNS",
+    "SMTP",
+    "POP",
+    "FTP",
+    "TFTP",
+    "HTTP",
+    "cookies",
+    "HTTPS"
+  ],
+  "learning_objectives": [
+    "Explain DNS hierarchy and resolution",
+    "Describe SMTP, POP, FTP, and HTTP operation",
+    "Use getaddrinfo() for DNS lookups in C"
+  ],
+  "prerequisites": [
+    "unit-transport-layer"
+  ]
+}

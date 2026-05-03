@@ -1,0 +1,76 @@
+{
+  "id": "transport-layer",
+  "title": "Transport Level",
+  "source_file": "course/eng/Curs 4/4rc_NivelulTransport_En.pdf",
+  "course_number": 4,
+  "course_group": "curs-4",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "transport layer overview",
+    "UDP",
+    "TCP",
+    "TCP vs UDP comparison"
+  ],
+  "subtopics": [
+    "transport layer role in the OSI/TCP/IP model",
+    "UDP characteristics – connectionless, unreliable",
+    "UDP header structure",
+    "TCP characteristics – connection-oriented, reliable",
+    "TCP header structure",
+    "TCP three-way handshake",
+    "TCP connection termination (four-way)",
+    "TCP flow control and sliding window",
+    "TCP congestion control (slow start, congestion avoidance)",
+    "port numbers and well-known ports",
+    "multiplexing and demultiplexing"
+  ],
+  "definitions": [
+    {
+      "term": "UDP",
+      "definition": "User Datagram Protocol – connectionless, unreliable transport protocol"
+    },
+    {
+      "term": "TCP",
+      "definition": "Transmission Control Protocol – reliable, ordered, connection-oriented protocol"
+    },
+    {
+      "term": "Three-way handshake",
+      "definition": "TCP connection establishment: SYN → SYN-ACK → ACK"
+    },
+    {
+      "term": "Flow control",
+      "definition": "Mechanism to prevent a fast sender from overwhelming a slow receiver"
+    },
+    {
+      "term": "Congestion control",
+      "definition": "Mechanism to prevent network overload"
+    },
+    {
+      "term": "Port",
+      "definition": "16-bit number identifying a specific process/service on a host"
+    }
+  ],
+  "key_concepts": [
+    "TCP",
+    "UDP",
+    "port",
+    "socket",
+    "three-way handshake",
+    "flow control",
+    "congestion control",
+    "sliding window"
+  ],
+  "learning_objectives": [
+    "Describe the role of the transport layer",
+    "Compare UDP and TCP characteristics",
+    "Explain TCP connection establishment and termination",
+    "Explain TCP flow control and congestion control mechanisms"
+  ],
+  "prerequisites": [
+    "network-layer"
+  ],
+  "parsing_status": "success"
+}

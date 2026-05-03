@@ -1,0 +1,64 @@
+{
+  "id": "network-programming-2",
+  "title": "Network Programming (II)",
+  "source_file": "course/eng/Curs 6/6rc_ProgramareaInReteaII_En.pdf",
+  "course_number": 6,
+  "course_group": "curs-6",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "UDP client/server model",
+    "I/O primitives",
+    "advanced socket programming"
+  ],
+  "subtopics": [
+    "iterative TCP client/server review",
+    "UDP socket programming: sendto(), recvfrom()",
+    "I/O multiplexing with select()",
+    "blocking vs non-blocking I/O",
+    "I/O models: blocking, non-blocking, I/O multiplexing, signal-driven, asynchronous",
+    "socket options: setsockopt(), getsockopt()",
+    "socket API criticisms and alternatives"
+  ],
+  "definitions": [
+    {
+      "term": "sendto()",
+      "definition": "Sends a datagram to a specified address (UDP)"
+    },
+    {
+      "term": "recvfrom()",
+      "definition": "Receives a datagram and records the source address (UDP)"
+    },
+    {
+      "term": "select()",
+      "definition": "Monitors multiple file descriptors for readability/writability"
+    },
+    {
+      "term": "Non-blocking I/O",
+      "definition": "Socket operations return immediately without blocking"
+    },
+    {
+      "term": "I/O multiplexing",
+      "definition": "Monitoring multiple sockets with a single thread using select() or poll()"
+    }
+  ],
+  "key_concepts": [
+    "UDP programming",
+    "select()",
+    "I/O multiplexing",
+    "blocking I/O",
+    "socket options"
+  ],
+  "learning_objectives": [
+    "Implement a UDP client/server using sendto()/recvfrom()",
+    "Use select() for I/O multiplexing",
+    "Compare blocking and non-blocking I/O models",
+    "Configure socket options"
+  ],
+  "prerequisites": [
+    "network-programming-1"
+  ],
+  "parsing_status": "success"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lesson-tcp-client-server",
+  "title": "Iterative TCP Client/Server",
+  "course_id": "network-programming-1",
+  "unit_id": "unit-socket-programming",
+  "order": 2,
+  "description": "Implementing a complete iterative TCP client and server in C.",
+  "topics": [
+    "TCP server",
+    "TCP client",
+    "iterative server"
+  ],
+  "learning_objectives": [
+    "Implement an iterative TCP server in C",
+    "Implement a TCP client that connects, sends, and receives data"
+  ],
+  "keywords": [
+    "iterative server",
+    "TCP",
+    "send()",
+    "recv()",
+    "close()"
+  ],
+  "duration_minutes": 60
+}

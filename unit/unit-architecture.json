@@ -1,0 +1,29 @@
+{
+  "id": "unit-architecture",
+  "title": "Unit 2: Network Architecture Models",
+  "year_id": "year-2",
+  "order": 2,
+  "description": "Layered network architectures: the OSI seven-layer model and the TCP/IP model.",
+  "lesson_ids": [
+    "lesson-osi-model",
+    "lesson-tcpip-model"
+  ],
+  "course_ids": [
+    "network-architecture"
+  ],
+  "key_concepts": [
+    "OSI model",
+    "TCP/IP model",
+    "encapsulation",
+    "PDU",
+    "layered architecture"
+  ],
+  "learning_objectives": [
+    "Name and describe all OSI and TCP/IP layers",
+    "Explain encapsulation and PDUs",
+    "Compare OSI and TCP/IP models"
+  ],
+  "prerequisites": [
+    "unit-foundations"
+  ]
+}

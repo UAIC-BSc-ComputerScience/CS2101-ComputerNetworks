@@ -1,0 +1,25 @@
+{
+  "id": "lesson-udp",
+  "title": "UDP – User Datagram Protocol",
+  "course_id": "transport-layer",
+  "unit_id": "unit-transport-layer",
+  "order": 1,
+  "description": "UDP characteristics, header structure, use cases.",
+  "topics": [
+    "UDP",
+    "connectionless",
+    "datagram"
+  ],
+  "learning_objectives": [
+    "Describe UDP features and limitations",
+    "Identify when UDP is preferred over TCP"
+  ],
+  "keywords": [
+    "UDP",
+    "datagram",
+    "connectionless",
+    "unreliable",
+    "port"
+  ],
+  "duration_minutes": 30
+}

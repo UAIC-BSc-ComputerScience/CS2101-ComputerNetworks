@@ -1,0 +1,88 @@
+{
+  "id": "wireless-networks",
+  "title": "Wireless Networks",
+  "source_file": "course/eng/Curs 13/13rc_ReteleWireless_EN.pdf",
+  "course_number": 13,
+  "course_group": "curs-13",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "wireless network preliminaries",
+    "wireless components",
+    "types of wireless networks",
+    "Mobile IP",
+    "wireless applications",
+    "Wireless Sensor Networks (WSN)"
+  ],
+  "subtopics": [
+    "electromagnetic spectrum and radio frequency",
+    "wireless vs wired characteristics",
+    "WLAN components: access point, NIC, adapter",
+    "IEEE 802.11 (Wi-Fi) standards",
+    "infrastructure mode vs ad-hoc mode",
+    "WEP, WPA, WPA2, WPA3 security protocols",
+    "Bluetooth (IEEE 802.15)",
+    "WiMAX (IEEE 802.16)",
+    "cellular networks: 2G, 3G, 4G LTE, 5G",
+    "Mobile IP: home agent, foreign agent, care-of address",
+    "WSN characteristics and applications",
+    "ZigBee protocol"
+  ],
+  "definitions": [
+    {
+      "term": "WLAN",
+      "definition": "Wireless Local Area Network"
+    },
+    {
+      "term": "Access Point (AP)",
+      "definition": "Device that connects wireless clients to a wired network"
+    },
+    {
+      "term": "IEEE 802.11",
+      "definition": "Set of standards for wireless LAN (Wi-Fi)"
+    },
+    {
+      "term": "Mobile IP",
+      "definition": "Protocol enabling mobile devices to keep the same IP address while roaming"
+    },
+    {
+      "term": "WSN",
+      "definition": "Wireless Sensor Network – network of spatially distributed sensors"
+    },
+    {
+      "term": "WPA2",
+      "definition": "Wi-Fi Protected Access 2 – current security standard for WLANs"
+    },
+    {
+      "term": "ZigBee",
+      "definition": "Low-power wireless standard based on IEEE 802.15.4 for sensor networks"
+    }
+  ],
+  "key_concepts": [
+    "WLAN",
+    "802.11",
+    "Wi-Fi",
+    "Bluetooth",
+    "WiMAX",
+    "Mobile IP",
+    "WSN",
+    "WPA2",
+    "4G",
+    "5G",
+    "ZigBee"
+  ],
+  "learning_objectives": [
+    "Describe wireless signal propagation and the RF spectrum",
+    "Identify IEEE 802.11 standards and their characteristics",
+    "Explain wireless security protocols (WEP/WPA/WPA2)",
+    "Explain Mobile IP operation",
+    "Describe WSN characteristics and use cases"
+  ],
+  "prerequisites": [
+    "network-architecture"
+  ],
+  "parsing_status": "success"
+}

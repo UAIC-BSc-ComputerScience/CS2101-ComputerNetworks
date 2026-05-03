@@ -1,0 +1,79 @@
+{
+  "id": "p2p-paradigm",
+  "title": "Peer-to-Peer (P2P) Paradigm",
+  "source_file": "course/eng/Curs 11/11rc_ParadigmaP2P_En.pdf",
+  "course_number": 11,
+  "course_group": "curs-11",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "P2P paradigm overview",
+    "P2P definitions and characteristics",
+    "P2P application types",
+    "P2P infrastructures",
+    "P2P instruments and tools"
+  ],
+  "subtopics": [
+    "client/server model reminder",
+    "P2P vs client/server comparison",
+    "centralized P2P (Napster model)",
+    "decentralized structured P2P (DHT, Chord, Pastry, Kademlia)",
+    "decentralized unstructured P2P (Gnutella)",
+    "hybrid P2P systems",
+    "BitTorrent protocol",
+    "content distribution networks (CDN)",
+    "P2P applications: file sharing, VoIP (Skype), video streaming",
+    "overlay networks",
+    "DHT – Distributed Hash Table"
+  ],
+  "definitions": [
+    {
+      "term": "P2P",
+      "definition": "Peer-to-Peer – distributed architecture where participants share resources directly"
+    },
+    {
+      "term": "DHT",
+      "definition": "Distributed Hash Table – decentralized lookup service for P2P networks"
+    },
+    {
+      "term": "Overlay network",
+      "definition": "Virtual network built on top of a physical network"
+    },
+    {
+      "term": "BitTorrent",
+      "definition": "P2P file sharing protocol using swarms and trackers"
+    },
+    {
+      "term": "Chord",
+      "definition": "Structured P2P protocol using consistent hashing for node lookup"
+    },
+    {
+      "term": "Napster",
+      "definition": "First widely used centralized P2P file-sharing system"
+    }
+  ],
+  "key_concepts": [
+    "P2P",
+    "DHT",
+    "BitTorrent",
+    "Chord",
+    "Kademlia",
+    "overlay",
+    "Napster",
+    "Gnutella",
+    "CDN"
+  ],
+  "learning_objectives": [
+    "Compare P2P and client/server paradigms",
+    "Classify P2P systems: centralized, decentralized structured, decentralized unstructured, hybrid",
+    "Explain DHT and consistent hashing",
+    "Describe BitTorrent operation"
+  ],
+  "prerequisites": [
+    "network-programming-1"
+  ],
+  "parsing_status": "success"
+}

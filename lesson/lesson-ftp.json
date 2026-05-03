@@ -1,0 +1,28 @@
+{
+  "id": "lesson-ftp",
+  "title": "File Transfer Protocols: FTP and TFTP",
+  "course_id": "application-layer",
+  "unit_id": "unit-application-layer",
+  "order": 3,
+  "description": "FTP active/passive modes, TFTP over UDP, command and data channels.",
+  "topics": [
+    "FTP",
+    "TFTP",
+    "file transfer",
+    "active mode",
+    "passive mode"
+  ],
+  "learning_objectives": [
+    "Explain FTP active and passive connection modes",
+    "Describe TFTP characteristics and use cases"
+  ],
+  "keywords": [
+    "FTP",
+    "TFTP",
+    "PORT",
+    "PASV",
+    "port 21",
+    "UDP"
+  ],
+  "duration_minutes": 40
+}

@@ -1,0 +1,75 @@
+{
+  "id": "network-programming-1",
+  "title": "Network Programming (I)",
+  "source_file": "course/eng/Curs 5/5rc_ProgramareaInReteaI_en.pdf",
+  "course_number": 5,
+  "course_group": "curs-5",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "client/server paradigm",
+    "BSD socket API",
+    "TCP client/server model"
+  ],
+  "subtopics": [
+    "network communication paradigms overview",
+    "client/server model description",
+    "socket concept and types (stream, datagram, raw)",
+    "socket address structures (sockaddr, sockaddr_in)",
+    "socket primitives: socket(), bind(), listen(), accept(), connect()",
+    "data transfer: send(), recv(), read(), write()",
+    "iterative TCP server",
+    "TCP client implementation",
+    "byte-order functions: htons(), htonl(), ntohs(), ntohl()",
+    "address conversion: inet_aton(), inet_ntoa(), inet_pton(), inet_ntop()"
+  ],
+  "definitions": [
+    {
+      "term": "Socket",
+      "definition": "An endpoint for communication between two programs over a network"
+    },
+    {
+      "term": "BSD Sockets",
+      "definition": "Berkeley Software Distribution socket API – standard for network programming in C"
+    },
+    {
+      "term": "bind()",
+      "definition": "Associates a socket with a local address and port"
+    },
+    {
+      "term": "listen()",
+      "definition": "Marks a socket as passive – ready to accept connections"
+    },
+    {
+      "term": "accept()",
+      "definition": "Accepts an incoming connection on a listening socket"
+    },
+    {
+      "term": "connect()",
+      "definition": "Initiates a connection to a remote server"
+    },
+    {
+      "term": "Byte order",
+      "definition": "Big-endian (network byte order) vs little-endian (host byte order)"
+    }
+  ],
+  "key_concepts": [
+    "BSD socket",
+    "client/server",
+    "TCP",
+    "socket primitives",
+    "byte order",
+    "port binding"
+  ],
+  "learning_objectives": [
+    "Explain the client/server communication paradigm",
+    "Use the BSD socket API to create TCP client and server programs",
+    "Correctly handle byte order and address structures"
+  ],
+  "prerequisites": [
+    "transport-layer"
+  ],
+  "parsing_status": "success"
+}

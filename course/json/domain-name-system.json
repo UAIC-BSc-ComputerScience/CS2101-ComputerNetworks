@@ -1,0 +1,91 @@
+{
+  "id": "domain-name-system",
+  "title": "Domain Name System (DNS)",
+  "source_file": "course/eng/Curs 9/9rc_SistemulNumelorDeDomenii_En.pdf",
+  "course_number": 9,
+  "course_group": "curs-9",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "DNS characterization",
+    "DNS organization",
+    "DNS configuration",
+    "DNS commands and primitives",
+    "Internationalized Domain Names (IDN)"
+  ],
+  "subtopics": [
+    "motivation: IP addresses are hard to remember",
+    "hierarchical domain name structure",
+    "DNS root, TLD, second-level domains",
+    "DNS resource record types: A, AAAA, CNAME, MX, NS, PTR, SOA, TXT",
+    "DNS resolution process: recursive and iterative",
+    "DNS caching and TTL",
+    "BIND configuration",
+    "gethostbyname(), getaddrinfo() primitives",
+    "IDN and Punycode encoding",
+    "RFC 1034, 1035, 1123, 2181"
+  ],
+  "definitions": [
+    {
+      "term": "DNS",
+      "definition": "Domain Name System – hierarchical distributed naming system for mapping hostnames to IP addresses"
+    },
+    {
+      "term": "FQDN",
+      "definition": "Fully Qualified Domain Name – complete domain name including all labels to the root"
+    },
+    {
+      "term": "Resource Record",
+      "definition": "An entry in a DNS zone file describing a name-to-address or other mapping"
+    },
+    {
+      "term": "TTL",
+      "definition": "Time To Live – duration a DNS record may be cached"
+    },
+    {
+      "term": "Recursive resolution",
+      "definition": "DNS resolver queries on behalf of the client until a final answer is obtained"
+    },
+    {
+      "term": "Iterative resolution",
+      "definition": "DNS resolver returns the best answer it has, client queries next server"
+    },
+    {
+      "term": "IDN",
+      "definition": "Internationalized Domain Name – domain name containing non-ASCII characters"
+    },
+    {
+      "term": "Punycode",
+      "definition": "Encoding scheme to represent Unicode domain names in ASCII"
+    }
+  ],
+  "key_concepts": [
+    "DNS",
+    "FQDN",
+    "resource records",
+    "A",
+    "AAAA",
+    "CNAME",
+    "MX",
+    "recursive",
+    "iterative",
+    "TTL",
+    "getaddrinfo",
+    "IDN"
+  ],
+  "learning_objectives": [
+    "Explain the structure and purpose of the DNS",
+    "Describe DNS resolution (recursive and iterative)",
+    "Identify major DNS record types",
+    "Use getaddrinfo() and related POSIX primitives",
+    "Explain IDN and Punycode"
+  ],
+  "prerequisites": [
+    "network-layer",
+    "transport-layer"
+  ],
+  "parsing_status": "success"
+}

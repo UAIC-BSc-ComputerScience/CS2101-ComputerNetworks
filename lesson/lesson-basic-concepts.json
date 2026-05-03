@@ -1,0 +1,29 @@
+{
+  "id": "lesson-basic-concepts",
+  "title": "Fundamental Concepts and Definitions",
+  "course_id": "fundamental-concepts",
+  "unit_id": "unit-foundations",
+  "order": 3,
+  "description": "Core networking terms: information, resource, package, link, node, protocol. Network classification (LAN/MAN/WAN) and topologies.",
+  "topics": [
+    "definitions",
+    "LAN/MAN/WAN",
+    "topologies",
+    "network components"
+  ],
+  "learning_objectives": [
+    "Define core networking terms",
+    "Classify networks by geographic scope",
+    "Identify common topologies"
+  ],
+  "keywords": [
+    "LAN",
+    "MAN",
+    "WAN",
+    "topology",
+    "node",
+    "protocol",
+    "packet"
+  ],
+  "duration_minutes": 50
+}

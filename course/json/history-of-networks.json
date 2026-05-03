@@ -1,0 +1,43 @@
+{
+  "id": "history-of-networks",
+  "title": "History of Computer Networks",
+  "source_file": "course/eng/Curs 1/1rc_Istoric_En.pdf",
+  "course_number": 1,
+  "course_group": "curs-1",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "prehistory of communication",
+    "origins of the Internet",
+    "ARPANET",
+    "milestones in network history",
+    "present state of the Internet",
+    "future of networking"
+  ],
+  "subtopics": [
+    "telegraph and early electrical communication",
+    "Morse code",
+    "Turing machine",
+    "ENIAC and early computers",
+    "ARPANET – first packet-switched network",
+    "TCP/IP adoption",
+    "World Wide Web",
+    "broadband and mobile evolution"
+  ],
+  "key_concepts": [
+    "packet switching",
+    "ARPANET",
+    "TCP/IP",
+    "World Wide Web",
+    "broadband"
+  ],
+  "learning_objectives": [
+    "Trace the historical evolution of computer networks from early communication to the Internet",
+    "Identify key milestones: telegraph, ARPANET, TCP/IP, WWW",
+    "Understand how past decisions shape modern network design"
+  ],
+  "prerequisites": [],
+  "parsing_status": "success"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "lesson-routing-basics",
+  "title": "Routing: Principles and Algorithms",
+  "course_id": "routing-and-congestion",
+  "unit_id": "unit-routing",
+  "order": 1,
+  "description": "Routing algorithm requirements, distance-vector (Bellman-Ford) and link-state (Dijkstra) algorithms.",
+  "topics": [
+    "routing",
+    "distance-vector",
+    "link-state",
+    "Bellman-Ford",
+    "Dijkstra"
+  ],
+  "learning_objectives": [
+    "Describe requirements for routing algorithms",
+    "Explain distance-vector and link-state routing"
+  ],
+  "keywords": [
+    "routing",
+    "Bellman-Ford",
+    "Dijkstra",
+    "distance-vector",
+    "link-state",
+    "routing table"
+  ],
+  "duration_minutes": 60
+}

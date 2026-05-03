@@ -1,0 +1,59 @@
+{
+  "id": "network-programming-oob",
+  "title": "Network Programming – Out-of-Band Data",
+  "source_file": "course/eng/Curs 11/7rc_ProgramareaInRetea_OOB_En.pdf",
+  "course_number": 7,
+  "course_group": "curs-11",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "out-of-band (OOB) data in TCP"
+  ],
+  "subtopics": [
+    "URG bit in TCP header",
+    "urgent pointer",
+    "sending OOB data with MSG_OOB flag",
+    "receiving OOB data: select(), SIGURG, SO_OOBINLINE",
+    "OOB data use cases"
+  ],
+  "definitions": [
+    {
+      "term": "OOB data",
+      "definition": "Out-of-band data – priority data sent separately from the normal data stream"
+    },
+    {
+      "term": "URG bit",
+      "definition": "TCP header flag indicating urgent data is present"
+    },
+    {
+      "term": "MSG_OOB",
+      "definition": "Flag used with send() to send out-of-band data"
+    },
+    {
+      "term": "SIGURG",
+      "definition": "Signal delivered to a process when urgent (OOB) data arrives"
+    },
+    {
+      "term": "SO_OOBINLINE",
+      "definition": "Socket option that places OOB data inline with normal data"
+    }
+  ],
+  "key_concepts": [
+    "OOB data",
+    "URG",
+    "SIGURG",
+    "MSG_OOB",
+    "SO_OOBINLINE",
+    "select()"
+  ],
+  "learning_objectives": [
+    "Explain the concept and use of TCP out-of-band data",
+    "Implement sending and receiving of OOB data using select(), SIGURG, and SO_OOBINLINE"
+  ],
+  "prerequisites": [
+    "network-programming-3"
+  ],
+  "parsing_status": "success"
+}

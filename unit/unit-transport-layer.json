@@ -1,0 +1,31 @@
+{
+  "id": "unit-transport-layer",
+  "title": "Unit 4: The Transport Layer",
+  "year_id": "year-2",
+  "order": 4,
+  "description": "UDP and TCP protocols, connection management, flow control, and congestion control.",
+  "lesson_ids": [
+    "lesson-udp",
+    "lesson-tcp",
+    "lesson-tcp-flow-congestion"
+  ],
+  "course_ids": [
+    "transport-layer"
+  ],
+  "key_concepts": [
+    "TCP",
+    "UDP",
+    "port",
+    "three-way handshake",
+    "flow control",
+    "congestion control"
+  ],
+  "learning_objectives": [
+    "Describe UDP and TCP characteristics",
+    "Explain TCP connection establishment and termination",
+    "Describe TCP flow and congestion control"
+  ],
+  "prerequisites": [
+    "unit-network-layer"
+  ]
+}

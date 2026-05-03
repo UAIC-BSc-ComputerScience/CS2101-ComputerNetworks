@@ -1,0 +1,48 @@
+{
+  "id": "course-overview",
+  "title": "Computer Networks – Course Overview",
+  "source_file": "course/eng/Curs 1/0rc_imagineDeAnsamblu_En.pdf",
+  "course_number": 0,
+  "course_group": "curs-1",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "institution": "Faculty of Computer Science, Al. I. Cuza University of Iasi",
+  "main_topics": [
+    "network types",
+    "communication protocols (TCP/IP)",
+    "network architecture models",
+    "client/server paradigm",
+    "BSD socket interface",
+    "Winsock interface",
+    "application protocols (terminal, SMTP, FTP, POP)",
+    "RPC paradigm",
+    "peer-to-peer (P2P) paradigm",
+    "wireless networks",
+    "security aspects in computer networks"
+  ],
+  "key_concepts": [
+    "TCP/IP",
+    "BSD Sockets",
+    "Winsock",
+    "client/server",
+    "RPC",
+    "P2P",
+    "wireless",
+    "security"
+  ],
+  "bibliography": [
+    "Larry L. Peterson, Bruce S. Davie – Computer Networks: A Systems Approach, 6th Edition, 2020",
+    "Lewis Van Winkle – Hands-On Network Programming with C, 1st Edition, 2019",
+    "Andrew S. Tanenbaum, David J. Wetherall – Computer Networks, 5th Edition"
+  ],
+  "learning_objectives": [
+    "Understand the scope and structure of the Computer Networks course",
+    "Identify the main topics to be covered throughout the semester",
+    "Know the required bibliography"
+  ],
+  "prerequisites": [],
+  "parsing_status": "success"
+}

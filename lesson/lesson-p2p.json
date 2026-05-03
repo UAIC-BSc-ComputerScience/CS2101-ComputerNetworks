@@ -1,0 +1,30 @@
+{
+  "id": "lesson-p2p",
+  "title": "Peer-to-Peer (P2P) Paradigm",
+  "course_id": "p2p-paradigm",
+  "unit_id": "unit-advanced-paradigms",
+  "order": 2,
+  "description": "P2P vs client/server, centralized/decentralized P2P, DHT, BitTorrent, Chord.",
+  "topics": [
+    "P2P",
+    "DHT",
+    "BitTorrent",
+    "Chord",
+    "overlay"
+  ],
+  "learning_objectives": [
+    "Classify P2P systems",
+    "Explain DHT and consistent hashing",
+    "Describe BitTorrent protocol"
+  ],
+  "keywords": [
+    "P2P",
+    "DHT",
+    "BitTorrent",
+    "Chord",
+    "Kademlia",
+    "Gnutella",
+    "overlay"
+  ],
+  "duration_minutes": 60
+}

@@ -1,0 +1,32 @@
+{
+  "id": "unit-advanced-paradigms",
+  "title": "Unit 7: Advanced Communication Paradigms",
+  "year_id": "year-2",
+  "order": 7,
+  "description": "RPC and P2P paradigms for distributed application development.",
+  "lesson_ids": [
+    "lesson-rpc",
+    "lesson-p2p"
+  ],
+  "course_ids": [
+    "rpc-paradigm",
+    "p2p-paradigm"
+  ],
+  "key_concepts": [
+    "RPC",
+    "stub",
+    "marshaling",
+    "XDR",
+    "P2P",
+    "DHT",
+    "BitTorrent",
+    "overlay"
+  ],
+  "learning_objectives": [
+    "Explain RPC call mechanics and compare with sockets",
+    "Classify P2P systems and explain DHT"
+  ],
+  "prerequisites": [
+    "unit-socket-programming"
+  ]
+}

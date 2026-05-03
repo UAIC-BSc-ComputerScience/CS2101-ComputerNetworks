@@ -1,0 +1,28 @@
+{
+  "id": "lesson-wireless-basics",
+  "title": "Wireless Network Fundamentals",
+  "course_id": "wireless-networks",
+  "unit_id": "unit-wireless",
+  "order": 1,
+  "description": "RF spectrum, WLAN components, IEEE 802.11 standards, infrastructure vs ad-hoc.",
+  "topics": [
+    "wireless",
+    "RF",
+    "802.11",
+    "WLAN",
+    "access point"
+  ],
+  "learning_objectives": [
+    "Describe radio frequency propagation",
+    "Identify 802.11 standards (a/b/g/n/ac/ax)"
+  ],
+  "keywords": [
+    "Wi-Fi",
+    "802.11",
+    "WLAN",
+    "access point",
+    "SSID",
+    "RF spectrum"
+  ],
+  "duration_minutes": 50
+}

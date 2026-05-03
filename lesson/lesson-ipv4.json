@@ -1,0 +1,26 @@
+{
+  "id": "lesson-ipv4",
+  "title": "IPv4 Addressing and Subnetting",
+  "course_id": "network-layer",
+  "unit_id": "unit-network-layer",
+  "order": 1,
+  "description": "IPv4 32-bit address space, subnet masks, CIDR notation, private address ranges.",
+  "topics": [
+    "IPv4",
+    "subnets",
+    "CIDR",
+    "private networks"
+  ],
+  "learning_objectives": [
+    "Perform IPv4 subnetting calculations",
+    "Explain CIDR and private address ranges (RFC 1918)"
+  ],
+  "keywords": [
+    "IPv4",
+    "subnet mask",
+    "CIDR",
+    "NAT",
+    "RFC 1918"
+  ],
+  "duration_minutes": 60
+}

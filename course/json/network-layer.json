@@ -1,0 +1,79 @@
+{
+  "id": "network-layer",
+  "title": "Network Level",
+  "source_file": "course/eng/Curs 3/3rc_NivelulRetea_En.pdf",
+  "course_number": 3,
+  "course_group": "curs-3",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "IPv4",
+    "subnets",
+    "private networks",
+    "ICMP",
+    "address resolution (ARP)",
+    "IPv6 overview"
+  ],
+  "subtopics": [
+    "IPv4 addressing and limitations",
+    "subnet masks and CIDR notation",
+    "private IP ranges (RFC 1918)",
+    "NAT (Network Address Translation)",
+    "ICMP messages and error reporting",
+    "ARP – Address Resolution Protocol",
+    "IPv6 addressing and motivation",
+    "IPv4 vs IPv6 comparison"
+  ],
+  "definitions": [
+    {
+      "term": "IPv4",
+      "definition": "Internet Protocol version 4 – 32-bit address space"
+    },
+    {
+      "term": "Subnet",
+      "definition": "A logical subdivision of an IP network"
+    },
+    {
+      "term": "CIDR",
+      "definition": "Classless Inter-Domain Routing – flexible IP address allocation"
+    },
+    {
+      "term": "NAT",
+      "definition": "Network Address Translation – maps private IPs to public IPs"
+    },
+    {
+      "term": "ICMP",
+      "definition": "Internet Control Message Protocol – reports errors and operational information"
+    },
+    {
+      "term": "ARP",
+      "definition": "Address Resolution Protocol – maps IP addresses to MAC addresses"
+    },
+    {
+      "term": "IPv6",
+      "definition": "Internet Protocol version 6 – 128-bit address space, successor to IPv4"
+    }
+  ],
+  "key_concepts": [
+    "IPv4",
+    "IPv6",
+    "subnet",
+    "CIDR",
+    "NAT",
+    "ICMP",
+    "ARP",
+    "routing"
+  ],
+  "learning_objectives": [
+    "Explain IPv4 addressing, subnetting, and CIDR",
+    "Describe private networks and NAT",
+    "Explain ARP and ICMP roles",
+    "Provide an overview of IPv6 and motivation for migration"
+  ],
+  "prerequisites": [
+    "network-architecture"
+  ],
+  "parsing_status": "success"
+}

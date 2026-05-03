@@ -1,0 +1,90 @@
+{
+  "id": "routing-and-congestion",
+  "title": "Network Level (II) – Routing and Congestion",
+  "source_file": "course/eng/Curs 12/12rc_RutareCongestie_EN.pdf",
+  "course_number": 12,
+  "course_group": "curs-12",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "routing activity",
+    "routing protocols",
+    "network congestion"
+  ],
+  "subtopics": [
+    "routing algorithm requirements: correct, simple, robust, optimal, fast-converging",
+    "datagram vs virtual circuit routing",
+    "routing tables",
+    "distance-vector routing (Bellman-Ford)",
+    "link-state routing (Dijkstra)",
+    "RIP (Routing Information Protocol)",
+    "OSPF (Open Shortest Path First)",
+    "BGP (Border Gateway Protocol)",
+    "EGP (Exterior Gateway Protocol)",
+    "IGP vs EGP distinction",
+    "autonomous systems (AS)",
+    "congestion causes and effects",
+    "congestion prevention and control"
+  ],
+  "definitions": [
+    {
+      "term": "Routing",
+      "definition": "The process of selecting paths in a network along which to send packets"
+    },
+    {
+      "term": "RIP",
+      "definition": "Routing Information Protocol – distance-vector routing protocol using hop count"
+    },
+    {
+      "term": "OSPF",
+      "definition": "Open Shortest Path First – link-state routing protocol using Dijkstra's algorithm"
+    },
+    {
+      "term": "BGP",
+      "definition": "Border Gateway Protocol – path-vector routing protocol for inter-AS routing"
+    },
+    {
+      "term": "Autonomous System (AS)",
+      "definition": "A collection of IP networks under a single administrative policy"
+    },
+    {
+      "term": "Congestion",
+      "definition": "State where network demand exceeds available capacity"
+    }
+  ],
+  "algorithms": [
+    {
+      "name": "Bellman-Ford",
+      "description": "Distance-vector algorithm used in RIP; computes shortest paths"
+    },
+    {
+      "name": "Dijkstra",
+      "description": "Link-state algorithm used in OSPF; finds shortest path tree from one source"
+    }
+  ],
+  "key_concepts": [
+    "routing",
+    "RIP",
+    "OSPF",
+    "BGP",
+    "AS",
+    "distance-vector",
+    "link-state",
+    "Dijkstra",
+    "Bellman-Ford",
+    "congestion"
+  ],
+  "learning_objectives": [
+    "Explain routing algorithm requirements and operation",
+    "Compare distance-vector (RIP) and link-state (OSPF) routing",
+    "Explain BGP role in inter-domain routing",
+    "Describe network congestion causes and control mechanisms"
+  ],
+  "prerequisites": [
+    "network-layer"
+  ],
+  "parsing_status": "success"
+}

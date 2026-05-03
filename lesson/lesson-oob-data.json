@@ -1,0 +1,27 @@
+{
+  "id": "lesson-oob-data",
+  "title": "Out-of-Band Data in TCP",
+  "course_id": "network-programming-oob",
+  "unit_id": "unit-socket-programming",
+  "order": 5,
+  "description": "TCP URG bit, sending/receiving OOB data with MSG_OOB, SIGURG, SO_OOBINLINE.",
+  "topics": [
+    "OOB data",
+    "URG",
+    "MSG_OOB",
+    "SIGURG",
+    "SO_OOBINLINE"
+  ],
+  "learning_objectives": [
+    "Explain the purpose of TCP OOB data",
+    "Implement OOB send/receive"
+  ],
+  "keywords": [
+    "OOB",
+    "URG",
+    "MSG_OOB",
+    "SIGURG",
+    "SO_OOBINLINE"
+  ],
+  "duration_minutes": 40
+}

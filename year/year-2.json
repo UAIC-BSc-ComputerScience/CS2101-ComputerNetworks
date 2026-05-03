@@ -1,0 +1,55 @@
+{
+  "id": "year-2",
+  "title": "Year 2 – Computer Science",
+  "institution": "Faculty of Computer Science, Al. I. Cuza University of Iasi",
+  "program": "Bachelor of Science in Computer Science",
+  "course_code": "CS2101",
+  "course_name": "Computer Networks",
+  "academic_year": "2020-2021",
+  "semester": 3,
+  "credits": 6,
+  "language": "en",
+  "unit_ids": [
+    "unit-foundations",
+    "unit-architecture",
+    "unit-network-layer",
+    "unit-transport-layer",
+    "unit-socket-programming",
+    "unit-application-layer",
+    "unit-advanced-paradigms",
+    "unit-routing",
+    "unit-wireless",
+    "unit-security"
+  ],
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "description": "A comprehensive undergraduate course covering the fundamentals of computer networks: network architectures (OSI, TCP/IP), the network and transport layers (IPv4/IPv6, TCP, UDP), network programming with BSD sockets in C, application-layer protocols (DNS, HTTP, SMTP, FTP), advanced paradigms (RPC, P2P), routing algorithms, wireless networks, and an introduction to network security.",
+  "total_courses": 14,
+  "total_pdf_files": 17,
+  "course_ids": [
+    "course-overview",
+    "history-of-networks",
+    "fundamental-concepts",
+    "network-architecture",
+    "network-layer",
+    "transport-layer",
+    "network-programming-1",
+    "network-programming-2",
+    "network-programming-3",
+    "network-programming-oob",
+    "domain-name-system",
+    "application-layer",
+    "p2p-paradigm",
+    "rpc-paradigm",
+    "routing-and-congestion",
+    "wireless-networks",
+    "network-security"
+  ],
+  "bibliography": [
+    "Larry L. Peterson, Bruce S. Davie – Computer Networks: A Systems Approach, 6th Edition, 2020",
+    "Lewis Van Winkle – Hands-On Network Programming with C, 1st Edition, 2019",
+    "Andrew S. Tanenbaum, David J. Wetherall – Computer Networks, 5th Edition"
+  ]
+}

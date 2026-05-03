@@ -1,0 +1,27 @@
+{
+  "id": "lesson-concurrent-servers",
+  "title": "Concurrent Server Architectures",
+  "course_id": "network-programming-3",
+  "unit_id": "unit-socket-programming",
+  "order": 4,
+  "description": "Concurrent TCP servers using fork() and pthreads; pre-fork and pre-thread models.",
+  "topics": [
+    "concurrent server",
+    "fork()",
+    "pthreads",
+    "pre-fork",
+    "pre-thread"
+  ],
+  "learning_objectives": [
+    "Implement concurrent servers with fork() and pthreads",
+    "Compare pre-fork and pre-thread architectures"
+  ],
+  "keywords": [
+    "fork()",
+    "pthread_create()",
+    "concurrent server",
+    "pre-forked",
+    "pre-threaded"
+  ],
+  "duration_minutes": 60
+}

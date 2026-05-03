@@ -1,0 +1,33 @@
+{
+  "id": "unit-routing",
+  "title": "Unit 8: Routing and Congestion",
+  "year_id": "year-2",
+  "order": 8,
+  "description": "Routing algorithms, protocols (RIP, OSPF, BGP), and network congestion control.",
+  "lesson_ids": [
+    "lesson-routing-basics",
+    "lesson-routing-protocols",
+    "lesson-congestion"
+  ],
+  "course_ids": [
+    "routing-and-congestion"
+  ],
+  "key_concepts": [
+    "routing",
+    "RIP",
+    "OSPF",
+    "BGP",
+    "Bellman-Ford",
+    "Dijkstra",
+    "AS",
+    "congestion"
+  ],
+  "learning_objectives": [
+    "Explain distance-vector and link-state algorithms",
+    "Compare RIP, OSPF, and BGP",
+    "Describe congestion control at the network level"
+  ],
+  "prerequisites": [
+    "unit-network-layer"
+  ]
+}

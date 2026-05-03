@@ -1,0 +1,26 @@
+{
+  "id": "lesson-udp-programming",
+  "title": "UDP Client/Server and I/O Primitives",
+  "course_id": "network-programming-2",
+  "unit_id": "unit-socket-programming",
+  "order": 3,
+  "description": "UDP socket programming with sendto()/recvfrom(), I/O multiplexing with select().",
+  "topics": [
+    "UDP programming",
+    "sendto/recvfrom",
+    "select()",
+    "I/O multiplexing"
+  ],
+  "learning_objectives": [
+    "Implement UDP client/server",
+    "Use select() for I/O multiplexing"
+  ],
+  "keywords": [
+    "sendto()",
+    "recvfrom()",
+    "select()",
+    "UDP",
+    "I/O multiplexing"
+  ],
+  "duration_minutes": 60
+}

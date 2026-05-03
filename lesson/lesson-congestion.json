@@ -1,0 +1,25 @@
+{
+  "id": "lesson-congestion",
+  "title": "Network Congestion: Causes and Control",
+  "course_id": "routing-and-congestion",
+  "unit_id": "unit-routing",
+  "order": 3,
+  "description": "Congestion causes, prevention, and control mechanisms at the network level.",
+  "topics": [
+    "congestion",
+    "congestion control",
+    "quality of service"
+  ],
+  "learning_objectives": [
+    "Explain why network congestion occurs",
+    "Describe congestion prevention and control strategies"
+  ],
+  "keywords": [
+    "congestion",
+    "QoS",
+    "packet loss",
+    "buffer overflow",
+    "traffic shaping"
+  ],
+  "duration_minutes": 40
+}

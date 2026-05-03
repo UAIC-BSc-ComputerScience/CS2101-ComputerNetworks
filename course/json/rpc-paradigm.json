@@ -1,0 +1,79 @@
+{
+  "id": "rpc-paradigm",
+  "title": "Remote Procedure Call (RPC) Paradigm",
+  "source_file": "course/eng/Curs 11/11rc_ParadigmaRPC_En.pdf",
+  "course_number": 11,
+  "course_group": "curs-11",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "RPC paradigm",
+    "XDR (External Data Representation)",
+    "RPC functioning",
+    "RPC implementations",
+    "RPC uses"
+  ],
+  "subtopics": [
+    "protocol-oriented vs functionality-oriented distributed design",
+    "stub concept (client stub, server stub)",
+    "marshaling and unmarshaling",
+    "XDR standard for data representation",
+    "Sun RPC / ONC RPC",
+    "DCE RPC",
+    "gRPC overview",
+    "IDL (Interface Definition Language)",
+    "rpcgen tool",
+    "RPC failure semantics: at-least-once, at-most-once, exactly-once",
+    "asynchronous RPC"
+  ],
+  "definitions": [
+    {
+      "term": "RPC",
+      "definition": "Remote Procedure Call – mechanism to call a procedure on a remote machine as if it were local"
+    },
+    {
+      "term": "Stub",
+      "definition": "Code proxy that handles the details of remote communication on behalf of the caller"
+    },
+    {
+      "term": "Marshaling",
+      "definition": "Encoding of parameters into a byte stream for transmission"
+    },
+    {
+      "term": "XDR",
+      "definition": "External Data Representation – Sun standard for machine-independent data encoding"
+    },
+    {
+      "term": "IDL",
+      "definition": "Interface Definition Language – language to describe the interface of remote procedures"
+    },
+    {
+      "term": "gRPC",
+      "definition": "Google's modern high-performance RPC framework using Protocol Buffers"
+    }
+  ],
+  "key_concepts": [
+    "RPC",
+    "stub",
+    "marshaling",
+    "XDR",
+    "IDL",
+    "ONC RPC",
+    "gRPC",
+    "at-least-once",
+    "at-most-once"
+  ],
+  "learning_objectives": [
+    "Explain the RPC communication model and compare it with socket-based programming",
+    "Describe marshaling/unmarshaling and XDR",
+    "Use rpcgen to generate stubs from an IDL",
+    "Identify failure semantics in RPC systems"
+  ],
+  "prerequisites": [
+    "network-programming-1"
+  ],
+  "parsing_status": "success"
+}
