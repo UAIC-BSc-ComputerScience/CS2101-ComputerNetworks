@@ -1,0 +1,26 @@
+{
+  "id": "lesson-tcp-flow-congestion",
+  "title": "TCP Flow Control and Congestion Control",
+  "course_id": "transport-layer",
+  "unit_id": "unit-transport-layer",
+  "order": 3,
+  "description": "Sliding window, slow start, congestion avoidance, fast retransmit, fast recovery.",
+  "topics": [
+    "flow control",
+    "congestion control",
+    "sliding window",
+    "slow start"
+  ],
+  "learning_objectives": [
+    "Explain TCP sliding window flow control",
+    "Describe TCP congestion control phases"
+  ],
+  "keywords": [
+    "sliding window",
+    "slow start",
+    "congestion avoidance",
+    "CWND",
+    "SSTHRESH"
+  ],
+  "duration_minutes": 50
+}

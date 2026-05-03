@@ -1,0 +1,32 @@
+{
+  "id": "unit-wireless",
+  "title": "Unit 9: Wireless Networks",
+  "year_id": "year-2",
+  "order": 9,
+  "description": "Wireless LAN standards, security, Mobile IP, and Wireless Sensor Networks.",
+  "lesson_ids": [
+    "lesson-wireless-basics",
+    "lesson-wireless-security",
+    "lesson-mobile-ip-wsn"
+  ],
+  "course_ids": [
+    "wireless-networks"
+  ],
+  "key_concepts": [
+    "802.11",
+    "Wi-Fi",
+    "WPA2",
+    "Mobile IP",
+    "WSN",
+    "ZigBee",
+    "Bluetooth"
+  ],
+  "learning_objectives": [
+    "Identify 802.11 standards",
+    "Compare wireless security protocols",
+    "Explain Mobile IP and WSN"
+  ],
+  "prerequisites": [
+    "unit-architecture"
+  ]
+}

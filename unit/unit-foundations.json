@@ -1,0 +1,32 @@
+{
+  "id": "unit-foundations",
+  "title": "Unit 1: Foundations of Computer Networks",
+  "year_id": "year-2",
+  "order": 1,
+  "description": "Introduction to the course, historical background, and fundamental networking concepts.",
+  "lesson_ids": [
+    "lesson-course-intro",
+    "lesson-history",
+    "lesson-basic-concepts"
+  ],
+  "course_ids": [
+    "course-overview",
+    "history-of-networks",
+    "fundamental-concepts"
+  ],
+  "key_concepts": [
+    "LAN",
+    "MAN",
+    "WAN",
+    "topology",
+    "protocol",
+    "ARPANET",
+    "packet switching"
+  ],
+  "learning_objectives": [
+    "Understand the scope of the Computer Networks course",
+    "Trace the historical evolution of the Internet",
+    "Define core networking terms and classify networks by type and topology"
+  ],
+  "prerequisites": []
+}

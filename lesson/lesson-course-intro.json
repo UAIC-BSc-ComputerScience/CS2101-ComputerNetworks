@@ -1,0 +1,30 @@
+{
+  "id": "lesson-course-intro",
+  "title": "Course Introduction and Scope",
+  "course_id": "course-overview",
+  "unit_id": "unit-foundations",
+  "order": 1,
+  "description": "Overview of the Computer Networks course: topics, bibliography, and course directions.",
+  "topics": [
+    "network types",
+    "TCP/IP",
+    "BSD sockets",
+    "RPC",
+    "P2P",
+    "wireless",
+    "security"
+  ],
+  "learning_objectives": [
+    "Understand the course scope and structure",
+    "Know the required bibliography"
+  ],
+  "keywords": [
+    "TCP/IP",
+    "BSD sockets",
+    "RPC",
+    "P2P",
+    "wireless",
+    "security"
+  ],
+  "duration_minutes": 30
+}

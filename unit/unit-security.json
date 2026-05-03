@@ -1,0 +1,36 @@
+{
+  "id": "unit-security",
+  "title": "Unit 10: Network Security",
+  "year_id": "year-2",
+  "order": 10,
+  "description": "CIA triad, attack types, defense mechanisms (firewalls, IDS/IPS, SSL/TLS, VPN).",
+  "lesson_ids": [
+    "lesson-security-fundamentals",
+    "lesson-security-mechanisms"
+  ],
+  "course_ids": [
+    "network-security"
+  ],
+  "key_concepts": [
+    "CIA",
+    "DoS",
+    "DDoS",
+    "MITM",
+    "firewall",
+    "IDS",
+    "IPS",
+    "SSL/TLS",
+    "VPN",
+    "PKI"
+  ],
+  "learning_objectives": [
+    "Explain the CIA security triad",
+    "Identify common attacks and defenses",
+    "Describe SSL/TLS, VPN, and PKI"
+  ],
+  "prerequisites": [
+    "unit-architecture",
+    "unit-transport-layer"
+  ],
+  "needs_review": true
+}

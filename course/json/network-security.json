@@ -1,0 +1,100 @@
+{
+  "id": "network-security",
+  "title": "Introduction to Network Security",
+  "source_file": "course/eng/Curs 14/14rc_SecuritateRC_RO.pdf",
+  "course_number": 14,
+  "course_group": "curs-14",
+  "language": "ro",
+  "needs_review": true,
+  "note": "PDF is in Romanian; key topics inferred from headings",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "security preliminaries",
+    "important security aspects",
+    "vulnerabilities",
+    "attacks",
+    "prevention and survival",
+    "monitoring",
+    "testing",
+    "incident response",
+    "security protocols",
+    "specific problems",
+    "statistics 2017-2018",
+    "predictions 2019+"
+  ],
+  "subtopics": [
+    "application quality attributes: correctness, modularity, compatibility, security",
+    "CIA triad: confidentiality, integrity, availability",
+    "network vulnerabilities and attack surfaces",
+    "DoS and DDoS attacks",
+    "man-in-the-middle attacks",
+    "SQL injection, XSS (cross-site scripting)",
+    "firewalls and IDS/IPS",
+    "SSL/TLS protocol",
+    "VPN overview",
+    "PKI and certificates",
+    "security monitoring tools",
+    "penetration testing",
+    "incident response process"
+  ],
+  "definitions": [
+    {
+      "term": "Confidentiality",
+      "definition": "Ensuring information is accessible only to authorized entities"
+    },
+    {
+      "term": "Integrity",
+      "definition": "Ensuring information has not been tampered with"
+    },
+    {
+      "term": "Availability",
+      "definition": "Ensuring services are accessible when needed"
+    },
+    {
+      "term": "DoS",
+      "definition": "Denial of Service – attack overwhelming a service to make it unavailable"
+    },
+    {
+      "term": "DDoS",
+      "definition": "Distributed Denial of Service – DoS attack from many distributed sources"
+    },
+    {
+      "term": "Firewall",
+      "definition": "System that controls incoming/outgoing network traffic based on rules"
+    },
+    {
+      "term": "SSL/TLS",
+      "definition": "Secure Sockets Layer / Transport Layer Security – cryptographic protocols for secure communication"
+    },
+    {
+      "term": "VPN",
+      "definition": "Virtual Private Network – encrypted tunnel over a public network"
+    }
+  ],
+  "key_concepts": [
+    "CIA triad",
+    "DoS",
+    "DDoS",
+    "firewall",
+    "SSL/TLS",
+    "VPN",
+    "PKI",
+    "IDS",
+    "IPS",
+    "penetration testing"
+  ],
+  "learning_objectives": [
+    "Understand the CIA security triad",
+    "Identify common network vulnerabilities and attack types",
+    "Describe prevention mechanisms: firewalls, IDS/IPS, VPN, SSL/TLS",
+    "Outline incident response procedures"
+  ],
+  "prerequisites": [
+    "network-architecture",
+    "transport-layer"
+  ],
+  "parsing_status": "success"
+}

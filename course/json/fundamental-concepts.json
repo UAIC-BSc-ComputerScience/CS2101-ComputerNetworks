@@ -1,0 +1,71 @@
+{
+  "id": "fundamental-concepts",
+  "title": "Concepts and Fundamental Notions",
+  "source_file": "course/eng/Curs 1/1rc_concepte_NotiunideBaza_En.pdf",
+  "course_number": 1,
+  "course_group": "curs-1",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "basic definitions",
+    "computer network necessity and use",
+    "classification of networks",
+    "network topologies",
+    "network components"
+  ],
+  "subtopics": [
+    "information, resource, package, link, node, protocol, communication",
+    "necessity of networking",
+    "LAN, MAN, WAN classification",
+    "bus, star, ring, mesh, tree topologies",
+    "hardware and software components"
+  ],
+  "definitions": [
+    {
+      "term": "Information",
+      "definition": "Anything that can be represented using bits"
+    },
+    {
+      "term": "Resource",
+      "definition": "Generic term that can signify data, equipment, etc."
+    },
+    {
+      "term": "Package",
+      "definition": "A way of storing data for transmission"
+    },
+    {
+      "term": "Link",
+      "definition": "A connection among network members"
+    },
+    {
+      "term": "Node",
+      "definition": "A computer from the network which has an address"
+    },
+    {
+      "term": "Protocol",
+      "definition": "Rules used to communicate"
+    },
+    {
+      "term": "Communication",
+      "definition": "Information exchanges between network nodes"
+    }
+  ],
+  "key_concepts": [
+    "LAN",
+    "MAN",
+    "WAN",
+    "topology",
+    "protocol",
+    "node",
+    "packet"
+  ],
+  "learning_objectives": [
+    "Define the core terms used in computer networking",
+    "Classify networks by geographic scope (LAN/MAN/WAN)",
+    "Identify common network topologies and components"
+  ],
+  "prerequisites": [],
+  "parsing_status": "success"
+}

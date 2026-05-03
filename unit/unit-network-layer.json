@@ -1,0 +1,33 @@
+{
+  "id": "unit-network-layer",
+  "title": "Unit 3: The Network Layer",
+  "year_id": "year-2",
+  "order": 3,
+  "description": "IPv4/IPv6 addressing, subnetting, NAT, ICMP, and ARP.",
+  "lesson_ids": [
+    "lesson-ipv4",
+    "lesson-icmp-arp",
+    "lesson-ipv6"
+  ],
+  "course_ids": [
+    "network-layer"
+  ],
+  "key_concepts": [
+    "IPv4",
+    "IPv6",
+    "subnet",
+    "CIDR",
+    "NAT",
+    "ARP",
+    "ICMP"
+  ],
+  "learning_objectives": [
+    "Perform IPv4 subnetting",
+    "Explain NAT and private networking",
+    "Describe ARP and ICMP operation",
+    "Overview IPv6"
+  ],
+  "prerequisites": [
+    "unit-architecture"
+  ]
+}

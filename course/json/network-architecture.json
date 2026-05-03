@@ -1,0 +1,67 @@
+{
+  "id": "network-architecture",
+  "title": "Network Architecture",
+  "source_file": "course/eng/Curs 2/2rc_ArhitecturiDeRetea_En.pdf",
+  "course_number": 2,
+  "course_group": "curs-2",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "structure of computer networks",
+    "OSI model",
+    "TCP/IP model",
+    "ISO/OSI vs TCP/IP comparison"
+  ],
+  "subtopics": [
+    "layered architecture principle",
+    "interfaces and services between layers",
+    "OSI seven layers: Physical, Data Link, Network, Transport, Session, Presentation, Application",
+    "TCP/IP four layers: Network Access, Internet, Transport, Application",
+    "encapsulation and decapsulation",
+    "PDU (Protocol Data Unit)",
+    "connection-oriented vs connectionless services"
+  ],
+  "definitions": [
+    {
+      "term": "Interface",
+      "definition": "Ensures communication between two consecutive layers"
+    },
+    {
+      "term": "Service",
+      "definition": "Functionality provided by a layer to the layer above"
+    },
+    {
+      "term": "Protocol",
+      "definition": "Rules and conventions through which communication takes place at the same layer level"
+    },
+    {
+      "term": "PDU",
+      "definition": "Protocol Data Unit – the unit of data passed between peer entities"
+    },
+    {
+      "term": "Encapsulation",
+      "definition": "Each layer adds its own header/trailer to the data unit from the layer above"
+    }
+  ],
+  "key_concepts": [
+    "OSI model",
+    "TCP/IP model",
+    "layered architecture",
+    "encapsulation",
+    "PDU",
+    "connection-oriented",
+    "connectionless"
+  ],
+  "learning_objectives": [
+    "Describe the layered architecture principle and its advantages",
+    "Name and explain all seven OSI layers and their functions",
+    "Map OSI layers to the TCP/IP model",
+    "Explain encapsulation and decapsulation"
+  ],
+  "prerequisites": [
+    "fundamental-concepts"
+  ],
+  "parsing_status": "success"
+}

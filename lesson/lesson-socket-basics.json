@@ -1,0 +1,28 @@
+{
+  "id": "lesson-socket-basics",
+  "title": "BSD Socket API Basics",
+  "course_id": "network-programming-1",
+  "unit_id": "unit-socket-programming",
+  "order": 1,
+  "description": "Socket concept, types, address structures, core primitives: socket(), bind(), listen(), accept(), connect().",
+  "topics": [
+    "BSD socket",
+    "socket primitives",
+    "address structures",
+    "byte order"
+  ],
+  "learning_objectives": [
+    "Create TCP/UDP sockets using the BSD API",
+    "Correctly set up address structures and byte order"
+  ],
+  "keywords": [
+    "socket()",
+    "bind()",
+    "listen()",
+    "accept()",
+    "connect()",
+    "sockaddr_in",
+    "htons()"
+  ],
+  "duration_minutes": 60
+}

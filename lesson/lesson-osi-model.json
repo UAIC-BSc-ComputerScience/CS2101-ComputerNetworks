@@ -1,0 +1,29 @@
+{
+  "id": "lesson-osi-model",
+  "title": "OSI Reference Model",
+  "course_id": "network-architecture",
+  "unit_id": "unit-architecture",
+  "order": 1,
+  "description": "The ISO/OSI seven-layer model: Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+  "topics": [
+    "OSI layers",
+    "interfaces",
+    "services",
+    "encapsulation"
+  ],
+  "learning_objectives": [
+    "Name and describe all seven OSI layers",
+    "Explain the role of interfaces and services"
+  ],
+  "keywords": [
+    "OSI",
+    "Physical",
+    "Data Link",
+    "Network",
+    "Transport",
+    "Session",
+    "Presentation",
+    "Application"
+  ],
+  "duration_minutes": 60
+}

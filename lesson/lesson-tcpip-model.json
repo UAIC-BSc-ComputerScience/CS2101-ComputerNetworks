@@ -1,0 +1,26 @@
+{
+  "id": "lesson-tcpip-model",
+  "title": "TCP/IP Model and OSI Comparison",
+  "course_id": "network-architecture",
+  "unit_id": "unit-architecture",
+  "order": 2,
+  "description": "TCP/IP four-layer model, encapsulation/decapsulation, PDU, comparison with OSI.",
+  "topics": [
+    "TCP/IP layers",
+    "PDU",
+    "encapsulation",
+    "OSI vs TCP/IP"
+  ],
+  "learning_objectives": [
+    "Map OSI layers to TCP/IP layers",
+    "Explain encapsulation and PDU"
+  ],
+  "keywords": [
+    "TCP/IP",
+    "encapsulation",
+    "PDU",
+    "connection-oriented",
+    "connectionless"
+  ],
+  "duration_minutes": 50
+}

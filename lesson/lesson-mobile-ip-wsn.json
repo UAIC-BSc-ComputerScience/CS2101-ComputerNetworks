@@ -1,0 +1,27 @@
+{
+  "id": "lesson-mobile-ip-wsn",
+  "title": "Mobile IP and Wireless Sensor Networks",
+  "course_id": "wireless-networks",
+  "unit_id": "unit-wireless",
+  "order": 3,
+  "description": "Mobile IP home/foreign agents, care-of address; WSN architecture and ZigBee.",
+  "topics": [
+    "Mobile IP",
+    "WSN",
+    "ZigBee",
+    "roaming"
+  ],
+  "learning_objectives": [
+    "Explain Mobile IP operation",
+    "Describe WSN use cases and ZigBee protocol"
+  ],
+  "keywords": [
+    "Mobile IP",
+    "home agent",
+    "foreign agent",
+    "care-of address",
+    "WSN",
+    "ZigBee"
+  ],
+  "duration_minutes": 40
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lesson-icmp-arp",
+  "title": "ICMP and Address Resolution Protocol",
+  "course_id": "network-layer",
+  "unit_id": "unit-network-layer",
+  "order": 2,
+  "description": "ICMP error reporting and diagnostic messages; ARP – resolving IP to MAC addresses.",
+  "topics": [
+    "ICMP",
+    "ARP",
+    "address resolution"
+  ],
+  "learning_objectives": [
+    "Explain ICMP message types and their uses",
+    "Describe ARP resolution process"
+  ],
+  "keywords": [
+    "ICMP",
+    "ARP",
+    "ping",
+    "traceroute",
+    "MAC address"
+  ],
+  "duration_minutes": 40
+}

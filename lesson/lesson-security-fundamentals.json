@@ -1,0 +1,30 @@
+{
+  "id": "lesson-security-fundamentals",
+  "title": "Network Security Fundamentals",
+  "course_id": "network-security",
+  "unit_id": "unit-security",
+  "order": 1,
+  "description": "CIA triad, vulnerabilities, common attack types (DoS, DDoS, MITM).",
+  "topics": [
+    "CIA triad",
+    "vulnerabilities",
+    "DoS",
+    "DDoS",
+    "MITM"
+  ],
+  "learning_objectives": [
+    "Explain confidentiality, integrity, and availability",
+    "Identify common network attacks"
+  ],
+  "keywords": [
+    "CIA",
+    "confidentiality",
+    "integrity",
+    "availability",
+    "DoS",
+    "DDoS",
+    "MITM"
+  ],
+  "duration_minutes": 50,
+  "needs_review": true
+}

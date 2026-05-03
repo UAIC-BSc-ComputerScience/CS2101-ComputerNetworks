@@ -1,0 +1,31 @@
+{
+  "id": "lesson-rpc",
+  "title": "Remote Procedure Call (RPC)",
+  "course_id": "rpc-paradigm",
+  "unit_id": "unit-advanced-paradigms",
+  "order": 1,
+  "description": "RPC model, stubs, marshaling, XDR, ONC RPC, gRPC, failure semantics.",
+  "topics": [
+    "RPC",
+    "stub",
+    "marshaling",
+    "XDR",
+    "ONC RPC",
+    "gRPC"
+  ],
+  "learning_objectives": [
+    "Explain RPC call semantics and stubs",
+    "Describe XDR and marshaling",
+    "Identify RPC failure modes"
+  ],
+  "keywords": [
+    "RPC",
+    "stub",
+    "marshaling",
+    "XDR",
+    "gRPC",
+    "at-least-once",
+    "at-most-once"
+  ],
+  "duration_minutes": 60
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lesson-history",
+  "title": "History and Origins of the Internet",
+  "course_id": "history-of-networks",
+  "unit_id": "unit-foundations",
+  "order": 2,
+  "description": "Prehistoric communication, telegraph, ARPANET, TCP/IP adoption, WWW, and the future of networking.",
+  "topics": [
+    "prehistory",
+    "ARPANET",
+    "TCP/IP history",
+    "WWW",
+    "broadband"
+  ],
+  "learning_objectives": [
+    "Trace the evolution of networking from early communication to modern Internet",
+    "Identify key milestones: telegraph, ARPANET, TCP/IP, WWW"
+  ],
+  "keywords": [
+    "ARPANET",
+    "TCP/IP",
+    "Internet history",
+    "packet switching",
+    "WWW"
+  ],
+  "duration_minutes": 50
+}

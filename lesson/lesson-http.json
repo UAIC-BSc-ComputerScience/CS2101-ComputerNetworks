@@ -1,0 +1,32 @@
+{
+  "id": "lesson-http",
+  "title": "HTTP and the World Wide Web",
+  "course_id": "application-layer",
+  "unit_id": "unit-application-layer",
+  "order": 4,
+  "description": "HTTP request/response model, methods, status codes, cookies, HTTPS overview.",
+  "topics": [
+    "HTTP",
+    "GET",
+    "POST",
+    "status codes",
+    "cookies",
+    "HTTPS"
+  ],
+  "learning_objectives": [
+    "Describe the HTTP request/response cycle",
+    "Use HTTP methods and interpret status codes",
+    "Explain the role of cookies in web sessions"
+  ],
+  "keywords": [
+    "HTTP",
+    "GET",
+    "POST",
+    "200 OK",
+    "404",
+    "cookie",
+    "HTTPS",
+    "TLS"
+  ],
+  "duration_minutes": 60
+}

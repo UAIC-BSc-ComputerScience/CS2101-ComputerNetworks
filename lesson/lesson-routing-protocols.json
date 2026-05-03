@@ -1,0 +1,31 @@
+{
+  "id": "lesson-routing-protocols",
+  "title": "Routing Protocols: RIP, OSPF, BGP",
+  "course_id": "routing-and-congestion",
+  "unit_id": "unit-routing",
+  "order": 2,
+  "description": "RIP and OSPF for intra-domain routing; BGP for inter-domain (AS) routing.",
+  "topics": [
+    "RIP",
+    "OSPF",
+    "BGP",
+    "autonomous system",
+    "IGP",
+    "EGP"
+  ],
+  "learning_objectives": [
+    "Explain RIP hop-count metric and limitations",
+    "Explain OSPF link-state flooding and SPF calculation",
+    "Describe BGP path-vector routing between ASes"
+  ],
+  "keywords": [
+    "RIP",
+    "OSPF",
+    "BGP",
+    "AS",
+    "IGP",
+    "EGP",
+    "SPF"
+  ],
+  "duration_minutes": 50
+}

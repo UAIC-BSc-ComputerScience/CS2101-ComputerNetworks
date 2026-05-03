@@ -1,0 +1,28 @@
+{
+  "id": "lesson-wireless-security",
+  "title": "Wireless Security Protocols",
+  "course_id": "wireless-networks",
+  "unit_id": "unit-wireless",
+  "order": 2,
+  "description": "WEP vulnerabilities, WPA, WPA2, WPA3 standards.",
+  "topics": [
+    "WEP",
+    "WPA",
+    "WPA2",
+    "WPA3",
+    "wireless security"
+  ],
+  "learning_objectives": [
+    "Explain WEP vulnerabilities",
+    "Compare WPA/WPA2/WPA3"
+  ],
+  "keywords": [
+    "WEP",
+    "WPA",
+    "WPA2",
+    "WPA3",
+    "AES",
+    "TKIP"
+  ],
+  "duration_minutes": 40
+}

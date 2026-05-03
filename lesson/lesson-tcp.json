@@ -1,0 +1,27 @@
+{
+  "id": "lesson-tcp",
+  "title": "TCP – Transmission Control Protocol",
+  "course_id": "transport-layer",
+  "unit_id": "unit-transport-layer",
+  "order": 2,
+  "description": "TCP header, three-way handshake, connection termination, reliability mechanisms.",
+  "topics": [
+    "TCP",
+    "three-way handshake",
+    "reliability",
+    "connection management"
+  ],
+  "learning_objectives": [
+    "Explain TCP connection establishment and termination",
+    "Describe TCP reliability through sequencing and ACKs"
+  ],
+  "keywords": [
+    "TCP",
+    "SYN",
+    "ACK",
+    "three-way handshake",
+    "sequence number",
+    "FIN"
+  ],
+  "duration_minutes": 60
+}

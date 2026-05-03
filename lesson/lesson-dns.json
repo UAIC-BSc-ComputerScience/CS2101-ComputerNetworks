@@ -1,0 +1,30 @@
+{
+  "id": "lesson-dns",
+  "title": "Domain Name System (DNS)",
+  "course_id": "domain-name-system",
+  "unit_id": "unit-application-layer",
+  "order": 1,
+  "description": "DNS hierarchy, resource records, resolution process, getaddrinfo(), IDN.",
+  "topics": [
+    "DNS",
+    "resource records",
+    "resolution",
+    "getaddrinfo",
+    "IDN"
+  ],
+  "learning_objectives": [
+    "Explain DNS hierarchical structure",
+    "Describe recursive and iterative DNS resolution",
+    "Use getaddrinfo() in C"
+  ],
+  "keywords": [
+    "DNS",
+    "A record",
+    "CNAME",
+    "MX",
+    "getaddrinfo()",
+    "IDN",
+    "Punycode"
+  ],
+  "duration_minutes": 60
+}

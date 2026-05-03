@@ -1,0 +1,33 @@
+{
+  "id": "lesson-security-mechanisms",
+  "title": "Security Mechanisms and Protocols",
+  "course_id": "network-security",
+  "unit_id": "unit-security",
+  "order": 2,
+  "description": "Firewalls, IDS/IPS, SSL/TLS, VPN, PKI, incident response.",
+  "topics": [
+    "firewall",
+    "IDS",
+    "IPS",
+    "SSL/TLS",
+    "VPN",
+    "PKI"
+  ],
+  "learning_objectives": [
+    "Describe firewall, IDS, and IPS operation",
+    "Explain SSL/TLS handshake",
+    "Outline incident response process"
+  ],
+  "keywords": [
+    "firewall",
+    "IDS",
+    "IPS",
+    "SSL",
+    "TLS",
+    "VPN",
+    "PKI",
+    "certificate"
+  ],
+  "duration_minutes": 60,
+  "needs_review": true
+}

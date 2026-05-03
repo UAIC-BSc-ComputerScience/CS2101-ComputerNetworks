@@ -1,0 +1,39 @@
+{
+  "id": "unit-socket-programming",
+  "title": "Unit 5: Network Programming with Sockets",
+  "year_id": "year-2",
+  "order": 5,
+  "description": "BSD socket API, TCP/UDP client/server implementations, concurrent servers, and OOB data.",
+  "lesson_ids": [
+    "lesson-socket-basics",
+    "lesson-tcp-client-server",
+    "lesson-udp-programming",
+    "lesson-concurrent-servers",
+    "lesson-oob-data"
+  ],
+  "course_ids": [
+    "network-programming-1",
+    "network-programming-2",
+    "network-programming-3",
+    "network-programming-oob"
+  ],
+  "key_concepts": [
+    "BSD socket",
+    "socket primitives",
+    "TCP client/server",
+    "UDP client/server",
+    "select()",
+    "fork()",
+    "pthreads",
+    "OOB data"
+  ],
+  "learning_objectives": [
+    "Implement TCP and UDP clients and servers in C",
+    "Use select() for I/O multiplexing",
+    "Design concurrent server architectures",
+    "Handle TCP out-of-band data"
+  ],
+  "prerequisites": [
+    "unit-transport-layer"
+  ]
+}

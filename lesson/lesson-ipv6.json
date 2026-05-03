@@ -1,0 +1,23 @@
+{
+  "id": "lesson-ipv6",
+  "title": "IPv6 Overview",
+  "course_id": "network-layer",
+  "unit_id": "unit-network-layer",
+  "order": 3,
+  "description": "IPv6 128-bit addressing, motivation for migration from IPv4, comparison.",
+  "topics": [
+    "IPv6",
+    "IPv4 vs IPv6"
+  ],
+  "learning_objectives": [
+    "Describe IPv6 addressing",
+    "Explain why IPv6 was introduced"
+  ],
+  "keywords": [
+    "IPv6",
+    "128-bit",
+    "address exhaustion",
+    "dual stack"
+  ],
+  "duration_minutes": 30
+}

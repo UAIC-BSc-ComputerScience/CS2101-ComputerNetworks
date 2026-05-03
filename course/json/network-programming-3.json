@@ -1,0 +1,69 @@
+{
+  "id": "network-programming-3",
+  "title": "Network Programming (III)",
+  "source_file": "course/eng/Curs 7/7rc_ProgramareaInReteaIII_En.pdf",
+  "course_number": 7,
+  "course_group": "curs-7",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta"
+  ],
+  "main_topics": [
+    "I/O primitives (advanced)",
+    "concurrent UDP server",
+    "TCP vs UDP considerations",
+    "concurrent server design patterns"
+  ],
+  "subtopics": [
+    "read()/recv()/readv()/recvfrom()/recvmsg() comparison",
+    "write()/send()/writev()/sendto()/sendmsg() comparison",
+    "concurrent TCP server with fork()",
+    "concurrent TCP server with threads (pthread)",
+    "pre-forked server model",
+    "pre-threaded server model",
+    "UDP concurrent server",
+    "selecting between TCP and UDP",
+    "network programming tools and instruments"
+  ],
+  "definitions": [
+    {
+      "term": "Concurrent server",
+      "definition": "A server that handles multiple clients simultaneously"
+    },
+    {
+      "term": "Pre-forked server",
+      "definition": "Server that creates a pool of child processes before clients connect"
+    },
+    {
+      "term": "Pre-threaded server",
+      "definition": "Server that creates a pool of threads before clients connect"
+    },
+    {
+      "term": "recvmsg()",
+      "definition": "Advanced receive primitive supporting scatter/gather and ancillary data"
+    },
+    {
+      "term": "sendmsg()",
+      "definition": "Advanced send primitive supporting scatter/gather and ancillary data"
+    }
+  ],
+  "key_concepts": [
+    "concurrent server",
+    "fork()",
+    "pthread",
+    "pre-fork",
+    "pre-thread",
+    "I/O vectors",
+    "scatter/gather"
+  ],
+  "learning_objectives": [
+    "Implement concurrent TCP servers using fork() and threads",
+    "Compare pre-forked and pre-threaded server architectures",
+    "Choose between TCP and UDP for a given application",
+    "Use advanced I/O primitives"
+  ],
+  "prerequisites": [
+    "network-programming-2"
+  ],
+  "parsing_status": "success"
+}

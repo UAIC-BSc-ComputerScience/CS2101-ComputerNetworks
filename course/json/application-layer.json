@@ -1,0 +1,88 @@
+{
+  "id": "application-layer",
+  "title": "Application Level Protocols",
+  "source_file": "course/eng/Curs 10/10rc_NivelulAplicatie_En.pdf",
+  "course_number": 10,
+  "course_group": "curs-10",
+  "language": "en",
+  "instructors": [
+    "Alboaie Lenuta",
+    "Panu Andrei"
+  ],
+  "main_topics": [
+    "application layer protocols overview",
+    "remote terminal access (Telnet, SSH)",
+    "electronic mail (SMTP, POP)",
+    "file transfer (TFTP, FTP)",
+    "World Wide Web (HTTP)"
+  ],
+  "subtopics": [
+    "application layer design features",
+    "Telnet – remote terminal protocol",
+    "SSH – Secure Shell",
+    "SMTP – Simple Mail Transfer Protocol",
+    "POP – Post Office Protocol",
+    "TFTP – Trivial File Transfer Protocol",
+    "FTP – File Transfer Protocol (active and passive modes)",
+    "HTTP/1.0 and HTTP/1.1",
+    "HTTP request/response structure",
+    "HTTP methods: GET, POST, PUT, DELETE, HEAD",
+    "HTTP status codes",
+    "cookies and sessions",
+    "HTTPS overview"
+  ],
+  "definitions": [
+    {
+      "term": "SMTP",
+      "definition": "Simple Mail Transfer Protocol – standard for sending email"
+    },
+    {
+      "term": "POP",
+      "definition": "Post Office Protocol – retrieves email from a mail server"
+    },
+    {
+      "term": "FTP",
+      "definition": "File Transfer Protocol – transfers files between client and server"
+    },
+    {
+      "term": "TFTP",
+      "definition": "Trivial File Transfer Protocol – simplified file transfer over UDP"
+    },
+    {
+      "term": "HTTP",
+      "definition": "HyperText Transfer Protocol – foundation of data communication on the Web"
+    },
+    {
+      "term": "Telnet",
+      "definition": "Protocol for remote terminal access (unencrypted)"
+    },
+    {
+      "term": "SSH",
+      "definition": "Secure Shell – encrypted replacement for Telnet"
+    }
+  ],
+  "key_concepts": [
+    "SMTP",
+    "POP",
+    "FTP",
+    "TFTP",
+    "HTTP",
+    "Telnet",
+    "SSH",
+    "HTTP methods",
+    "status codes",
+    "cookies"
+  ],
+  "learning_objectives": [
+    "Describe the purpose and operation of major application-layer protocols",
+    "Explain SMTP and POP email exchange",
+    "Compare FTP active and passive modes",
+    "Explain HTTP request/response cycle, methods, and status codes",
+    "Understand the role of cookies in HTTP sessions"
+  ],
+  "prerequisites": [
+    "transport-layer",
+    "domain-name-system"
+  ],
+  "parsing_status": "success"
+}

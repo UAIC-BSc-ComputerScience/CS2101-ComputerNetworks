@@ -1,0 +1,27 @@
+{
+  "id": "lesson-email-protocols",
+  "title": "Email Protocols: SMTP and POP",
+  "course_id": "application-layer",
+  "unit_id": "unit-application-layer",
+  "order": 2,
+  "description": "SMTP for sending email, POP for retrieval, email flow from client to recipient.",
+  "topics": [
+    "SMTP",
+    "POP",
+    "email",
+    "mail exchange"
+  ],
+  "learning_objectives": [
+    "Explain SMTP command sequence",
+    "Compare POP and IMAP email retrieval"
+  ],
+  "keywords": [
+    "SMTP",
+    "POP",
+    "IMAP",
+    "MX record",
+    "port 25",
+    "port 110"
+  ],
+  "duration_minutes": 40
+}
